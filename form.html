@@ -1,0 +1,122 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+
+<body>
+
+<form>
+名：
+<input type="text" name="firstname">
+<br />
+姓：
+<input type="text" name="lastname">
+</form>
+
+<br/>
+<br/>
+
+<form>
+用户：
+<input type="text" name="user">
+<br />
+密码：
+<input type="password" name="password">
+</form>
+<p>
+请注意，当您在密码域中键入字符时，浏览器将使用项目符号来代替这些字符。
+</p>
+
+<br/>
+<br/>
+
+<form>
+<input type="radio" name="sex" value="male" /> Male
+<br />
+<input type="radio" name="sex" value="female" /> Female
+</form>
+
+<br/>
+<br/>
+<form>
+<input type="checkbox" name="bike" />
+I have a bike
+<br />
+<input type="checkbox" name="car" />
+I have a car
+</form>
+
+
+<br/>
+<br/>
+<form>
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+<br/>
+<br/>
+<form>
+<select name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat" selected="selected">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+<br/>
+<br/>
+<form name="input" action="html_form_action.asp" method="get">
+Username: 
+<input type="text" name="user" />
+<input type="submit" value="Submit" />
+</form>
+
+<br/>
+<br/>
+<form>
+<input type="button" value="Hello world!">
+</form>
+
+<br/>
+<br/>
+<textarea rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+
+<br/>
+<br/>
+<form>
+  <fieldset>
+    <legend>健康信息</legend>
+    身高：<input type="text" />
+    体重：<input type="text" />
+  </fieldset>
+</form>
+
+<p>如果表单周围没有边框，说明您的浏览器太老了。</p>
+
+<br/>
+<br/>
+<form action="MAILTO:someone@w3school.com.cn" method="post" enctype="text/plain">
+
+<h3>这个表单会把电子邮件发送到 W3School。</h3>
+姓名：<br />
+<input type="text" name="name" value="yourname" size="20">
+<br />
+电邮：<br />
+<input type="text" name="mail" value="yourmail" size="20">
+<br />
+内容：<br />
+<input type="text" name="comment" value="yourcomment" size="40">
+<br /><br />
+<input type="submit" value="发送">
+<input type="reset" value="重置">
+
+</form>
+
+</body>
+</html>
